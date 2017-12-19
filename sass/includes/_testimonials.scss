@@ -1,0 +1,37 @@
+#testimonials{
+	.carousel-indicators{
+		background-color:green;
+	}
+	
+	h2{
+		@include heading(48px,80px,calc(50% - 20px),80px 0px);
+	
+
+		
+
+	}
+	img{
+		border-radius:100%;
+		position:relative;
+		top:20px;
+	}
+	cite{
+		font-weight:700;
+		font-size:16px;
+		position:relative;
+		top:15px;
+		left:10px;
+		@extend .color-blue;
+	}
+	h5{
+		font-size:14px;
+		color:#b1b1b1;
+		position:relative;
+		bottom:10px;
+		left:60px;
+	}
+	p{
+		font-weight:300;
+
+	}
+}

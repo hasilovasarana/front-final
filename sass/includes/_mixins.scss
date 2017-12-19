@@ -1,0 +1,55 @@
+@mixin iconStyle($iconSize,$iconColor){
+	font-weight:400;
+	font-size:$iconSize;
+	padding:0px 6px;
+	color:$iconColor;
+}
+@mixin buttonStyle($btnPadding){	
+	background-color:#42a4ff;
+	border:1px solid #42a4ff;
+	border-radius:50px;	
+	padding:$btnPadding;	
+	font-size:12px;
+	font-weight:700;
+	outline:none;	
+
+}
+@mixin heading($fontSize,$padding,$afterPos,$afterMargin){	
+	font-size:$fontSize;
+	font-weight:700;	
+	padding:$padding;
+	position:relative;
+	margin:20px;
+	text-align:center;
+
+	&:after{
+		content:"";
+		position:absolute;
+		left:$afterPos;
+		width:40px;
+		height:2px;
+		@extend .bg-color;	
+		margin:$afterMargin;
+		
+
+	}
+}
+
+// @mixin headingBefore($padding,$afterPos,$afterMargin){		
+// 	font-weight:700;	
+// 	padding:$padding;
+// 	position:relative;
+// 	margin:20px;
+// 	text-align:center;
+
+// 	&:before{
+// 		content:"";
+// 		position:absolute;
+// 		left:$afterPos;
+// 		width:40px;
+// 		height:2px;
+// 		@extend .bg-color;	
+// 		margin:$afterMargin;
+		
+
+// 	}

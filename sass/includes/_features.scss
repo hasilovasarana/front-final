@@ -1,0 +1,17 @@
+#features{
+	text-align:center;
+	padding:100px 0px;
+	.row{
+			i{
+			@extend .color-blue;
+		}
+			h1{
+				@include heading(40px,10px,calc(50% - 20px),60px 0px);
+			}
+			p{
+				font-weight:400;
+				font-size:18px;
+			}
+	   }
+	
+}

@@ -1,0 +1,58 @@
+body{
+	margin:0px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/* common classes*/
+
+// .full-width{
+// 	width:100%;
+// }
+.full-width{
+	width:100%;
+}
+.display{
+	display:inline-block;
+}
+.margin-bottom{
+	margin-bottom:0px;
+}
+.ul-style{
+	// width:200px;	
+	padding-left:0px;
+	margin-bottom:0px;
+}
+.list-style{
+	list-style-type:none;
+	text-decoration:none;
+	display:inline-block;
+
+}
+.color-blue{
+	color:#42a4ff;
+}
+.bg-color{
+	background:#136cbf;
+	
+}
+.margin{
+	margin:0 -15px;
+}
+/* rooter variables*/
+
+$bgcolor-blue:#1872c5;
+
+/* sass import files*/
+
+@import "includes/mixins";
+@import "includes/rooter";
+@import "includes/mainSlide";
+@import "includes/features";
+@import "includes/services";
+@import "includes/serviceSlide";
+@import "includes/manufactures";
+@import "includes/testimonials";
+@import "includes/blogPosts";
+@import "includes/map";
+@import "includes/footer";

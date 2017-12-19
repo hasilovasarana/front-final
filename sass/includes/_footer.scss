@@ -1,0 +1,113 @@
+#footer{
+	
+	background:#313132;
+	height:485px;
+	.footer{
+		// margin:0px -15px;
+		padding:100px 0px;
+		img{
+			padding-top:15px;
+		}
+		.row i{
+		@include iconStyle(18px,white);
+
+	}
+	.icon-group{
+			@include iconStyle(18px,#777);
+			opacity:0.5;
+			padding-top:110px;
+		}
+
+		h5{
+			color:white;
+			font-size:22px;
+			font-weight:700;
+			border-bottom:1px solid #777;
+			padding-bottom:10px;
+		}
+		p{
+			color:#777;
+			font-size:14px;
+			font-weight:400;
+			padding-top:10px;
+		
+	    }
+	    input{
+	    	height:40px;
+	    	padding:11px 32px 11px 19px;
+	    	border-radius:50px;
+	    }
+	    button{
+	    	@include buttonStyle(10px 32px 11px 19px);
+	    	color:white;
+	    	float:right;
+	    	position:relative;
+	    	bottom:40px;
+	    }
+	    .contactUs{
+	    	position:relative;	    	
+	    	left:80px;
+	    	.row{
+	    		position:relative;
+	    		top:10px;
+	    	}
+	    	.mobile1{
+	    		color:#777;
+	    		position:relative;
+	    		left:10px; 
+	    		&:hover{
+	    			text-decoration: none;
+	    		}   		
+	    		
+	    	}
+	    	.mobile2{
+	    		color:#777;
+	    		position:relative;
+	    		left:40px; 
+	    		&:hover{
+	    			text-decoration: none;
+	    		}   
+	    	}
+	    	.address1{
+	    		position:relative;
+	    		left:5px;
+	    	}
+	    	.address2{
+	    		position:relative;
+	    		left:35px;
+	    	}
+	    	.time1{
+	    		position: relative;
+	    		left:5px;
+	    	}
+	    	.time2{
+	    		position: relative;
+	    		left:35px;
+	    	}
+	    	.envelope{
+	    		position:relative;
+	    		top:20px;
+	    	}
+	    	.clock{
+	    		position: relative;
+	    		top:20px;
+	    	}
+
+	    	span{
+	    		color:#777;
+	    	}
+	    }
+		
+}
+		footer{
+			color:#777;
+			position:relative;
+			right:10px;
+			span{
+				&:hover{
+					color:#a5d4ff;
+					transition:all .1s ease;
+				}
+			}
+		}
+}
